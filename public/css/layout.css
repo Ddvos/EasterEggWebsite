@@ -9,12 +9,15 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
+   c. team Section
+   d. White paper section
+   e. Resume Section
+   e. Roadmap section
+   f. Portfolio Section
+   g. Call To Action Section
+   h. Testimonials Section
+   i. Contact Section
+   j. Footer
 
 ===================================================================== */
 
@@ -225,9 +228,106 @@ ul#nav li.current a { color: #fe6928; }
    font-size: 20px;
 }
 
+/* ------------------------------------------------------------------ */
+/* c. Team Section
+/* ------------------------------------------------------------------ */
+
+#team {
+   background: #000524;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#team a, #team a:visited  { color: #fff; }
+#team a:hover, #team a:focus { color: #0762f9; }
+
+#team h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#team p {
+   line-height: 30px;
+   color: #ccc;
+}
+#team .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#team .contact-details { width: 41.66667%; }
+#about .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#team .main-col { padding-right: 5%; }
+#about .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#team .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#team .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. Whitepaper Section
+/* ------------------------------------------------------------------ */
+
+#whitepaper {
+   background: #000524;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#whitepapert a, #whitepaper a:visited  { color: #fff; }
+#whitepapert a:hover, #whitepaper a:focus { color: #0762f9; }
+
+#whitepaper h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#whitepaper p {
+   line-height: 30px;
+   color: #ccc;
+}
+#whitepaper .profile-pic {
+   position: relative;
+   width: 50%;
+   height: 50%;
+   border-radius: 100%;
+}
+#whitepaper.contact-details { width: 41.66667%; }
+#whitepaper .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#whitepaper .main-col { padding-right: 5%; }
+#whitepaper .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#whitepaper .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#whitepaper .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* e. Resume Section
 /* ------------------------------------------------------------------ */
 
 #resume {
@@ -272,6 +372,56 @@ ul#nav li.current a { color: #fe6928; }
    margin-left: 5px;
 }
 #resume .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
+/* e. Roadmap Section
+/* ------------------------------------------------------------------ */
+
+#roadmap {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#roadmap a, #roadmap a:visited  { color: #0762f9; }
+#roadmap a:hover, #roadmap a:focus { color: #313131; }
+
+#roadmap h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#roadmap h1 span {
+   border-bottom: 3px solid #0762f9;
+   padding-bottom: 6px;
+}
+#roadmap h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#roadmap .header-col { padding-top: 9px; }
+#roadmap .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#roadmap .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#roadmap .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#roadmap .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -408,7 +558,7 @@ ul#nav li.current a { color: #fe6928; }
 }  */
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* f. Portfolio Section
 /* ------------------------------------------------------------------ */
 
 #portfolio {
@@ -579,7 +729,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 /* ------------------------------------------------------------------ */
-/* f. Call To Action Section
+/* g. Call To Action Section
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
@@ -636,7 +786,7 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* h. Testimonials
 /* ------------------------------------------------------------------ */
 
 #testimonials {

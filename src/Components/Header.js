@@ -6,10 +6,10 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
-    const github = this.props.data.github;
-    const name = this.props.data.name;
-    const description = this.props.data.description;
+    // const project = this.props.data.project;
+    // const github = this.props.data.github;
+    // const name = this.props.data.name;
+    // const description = this.props.data.description;
 
     return (
       <header id="home">
@@ -31,25 +31,25 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#about">
-                About
+              <a className="smoothscroll" href="#whitepaper">
+                Whitepaper
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
-                Resume
+              <a className="smoothscroll" href="#roadmap">
+                Roadmap
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
+              <a className="smoothscroll" href="#team">
+                Team
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#contact">
+              <a className="smoothscroll" href="#footer">
                 Contact
               </a>
             </li>
@@ -59,19 +59,19 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1 className="responsive-headline">Easter Egg Token</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h3>Find the first Easter Egg and claim your free Airdrop.</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
+                <a href="/"className="button btn project-btn">
                   <i className="fa fa-book"></i>Project
                 </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                <a href="https://poocoin.app/" className="button btn github-btn">
+                  <i className="fa fa-github"></i>Chart
                 </a>
               </ul>
             </Fade>
@@ -79,7 +79,7 @@ class Header extends Component {
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
+          <a className="smoothscroll" href="#whitepaper">
             <i className="icon-down-circle"></i>
           </a>
         </p>
