@@ -26,7 +26,7 @@ class Footer extends Component {
                 <li>&copy; Copyright 2021 Easter Egg Token</li>
                 <li>
                   Design by{" "}
-                  <a title="Styleshout" href="http://www.styleshout.com/">
+                  <a title="EasterXggs" href="https://easterxggs.com/">
                     the Easter Egg team
                   </a>
                 </li>

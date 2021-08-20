@@ -70,8 +70,8 @@ class Header extends Component {
                 <a href="/"className="button btn project-btn">
                   <i className="fa fa-book"></i>Project
                 </a>
-                <a href="https://poocoin.app/" className="button btn github-btn">
-                  <i className="fa fa-github"></i>Chart
+                <a href="https://testnet.bscscan.com/address/0x8eb4cf9b579d84a834a7fe420cb081006a32d1cd#code" className="button btn github-btn">
+                  <i className="fa fa-github"></i>Contract
                 </a>
               </ul>
             </Fade>
