@@ -39,16 +39,16 @@ class Whitepaper extends Component {
             <div className="nine columns main-col">
               <h2>Tokenomics</h2>
 
-              <p>With Easter Egg we want to set up the largest Easter Eggs world wide that everyone can participate in, online but also in the real world!
+              <p>With the Easter Egg Token we want to set up the largest Easter eggs world wide that everyone can participate in, online but also in the real world!
                 For this we want to collect money with the Easter Egg token. 
                 For each transaction we charge a fee of 7%, of which 3% goes to a
-                wallet with which we will finance the easter eggs, 2% goes to the liquidity pool and 2% goes back to the holders.</p>
+                wallet with which we will finance the Easter eggs, 2% goes to the liquidity pool and 2% goes back to the holders.</p>
 
-              <h2>Easter Eggs</h2>
+              <h2>Easter eggs</h2>
 
-              <p>The easter eggs will be hidden both online and in the real world. 
-                 The easter eggs can be found by following the correct steps. 
-                 The one who finds the easter egg will find very nice <i onClick={()=>this.showLambo()}>prizes!</i></p>  
+              <p>The Easter eggs will be hidden both online and in the real world. 
+                 The Easter eggs can be found by following the correct steps. 
+                 The one who finds the Easter egg will find very nice <i onClick={()=>this.showLambo()}>prizes!</i></p>  
 
               <img style={{ display: this.state.lamboState ? "block" : "none" }}  
                 className="lambo-pic"

@@ -30,7 +30,7 @@ class Roadmap extends Component {
                 <h3>{"Launch Easter Egg Token"}</h3>
                   <p className="info">
                     {""} <span>&bull;</span>
-                    <em className="date">May 2021</em>
+                    <em className="date">Okt 2021</em>
                   </p>
                   <p>DX presale, Launch of token</p></div>
               </div>
@@ -47,11 +47,11 @@ class Roadmap extends Component {
             </div>
 
             <div className="nine columns main-col">
-            <h3>First Easter Eggs</h3>
+            <h3>First Easter eggs</h3>
                 <p className="info">
-                  <span>&bull;</span> <em className="date">Jun 2021</em>
+                  <span>&bull;</span> <em className="date">Nov 2021</em>
                 </p>
-                <p>Several Easter Eggs will be distributed, the largest of which has a value of 20% of the dev wallet!</p>
+                <p>Several Easter eggs will be distributed, the largest of which has a value of 20% of the dev wallet!</p>
             
             </div>
           </div>
@@ -68,9 +68,9 @@ class Roadmap extends Component {
             <div className="nine columns main-col">
             <h3>Launch NFT Easter Egg Platform</h3>
                 <p className="info">
-                  <span>&bull;</span> <em className="date">Sep 2021</em>
+                  <span>&bull;</span> <em className="date">Dec 2021</em>
                 </p>
-                <p>We will be launching a platform where the community can share information about the Easter Eggs. Sharing is caring</p>
+                <p>We will be launching a platform where the community can share information about the Easter eggs. Sharing is caring</p>
             </div>
           </div>
         </Slide>

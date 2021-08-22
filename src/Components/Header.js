@@ -62,7 +62,7 @@ class Header extends Component {
               <h1 className="responsive-headline">Easter Egg Token</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>Find the first Easter Egg and claim your free Airdrop.</h3>
+              <h3>Find the first Easter egg and claim your free Airdrop.</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
